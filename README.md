@@ -7,6 +7,9 @@
 
 A robust, scalable, and high-performance **FAQ Management System** designed to streamline FAQ management with seamless multi-language support, leveraging the power of Node.js, Express, MongoDB, and Redis. This application allows dynamic and real-time translation of FAQs in multiple Indian languages with integrated caching for faster response times.
 
+## **Live Deployment**
+🚀 **Backend API:** [FAQ Management Backend](https://faq-management-backend.onrender.com/api/faqs)
+
 ## **Table of Contents**
 
 - [Key Features](#key-features)
@@ -17,6 +20,7 @@ A robust, scalable, and high-performance **FAQ Management System** designed to s
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
 - [Deployment](#deployment)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,3 +71,42 @@ A robust, scalable, and high-performance **FAQ Management System** designed to s
  ┣ 📜 server.js            # Application entry point
  ┣ 📜 .env                 # Environment configuration
  ┗ 📜 package.json         # Project dependencies
+```
+
+## **Screenshots**
+![Schema](https://github.com/user-attachments/assets/0632a827-e57c-4aae-88a4-d148ede5d68f)
+![GET_ALL](https://github.com/user-attachments/assets/bc66e454-cba1-4001-8b1e-11653e2d909e)
+![POST](https://github.com/user-attachments/assets/de56bdaa-5141-4f10-8957-2cfaefef0e5f)
+![image](https://github.com/user-attachments/assets/3a905e79-aca9-4009-9c76-01554c7e96fb)
+![image](https://github.com/user-attachments/assets/1b3ff290-4f7c-486e-8dc8-733b3fa21f84)
+
+
+## **Installation**
+```sh
+# Clone the repository
+git clone https://github.com/your-repo/faq-management.git
+cd faq-management
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
+```
+
+## **Configuration**
+Ensure you set up your `.env` file with the necessary environment variables:
+```sh
+MONGO_URI=mongodb+srv://<your-mongo-url>
+REDIS_HOST=localhost
+REDIS_PORT=6379
+TRANSLATION_API_KEY=your-google-translate-api-key
+```
+
+## **Testing**
+```sh
+npm test
+```
+
+❤️ Made with love for BharatFD by Surya Parida
+
